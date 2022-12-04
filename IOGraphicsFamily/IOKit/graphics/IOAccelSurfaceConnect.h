@@ -19,7 +19,6 @@
  * 
  * @APPLE_LICENSE_HEADER_END@
  */
-// modified for Darling
 
 #ifndef _IOACCEL_SURFACE_CONNECT_H
 #define _IOACCEL_SURFACE_CONNECT_H
@@ -125,9 +124,7 @@ typedef enum {
         kIOAccelSurfaceModeStereoBit       = 0x00000010,
         kIOAccelSurfaceModeWindowedBit     = 0x00000020,
 
-        kIOAccelSurfaceModeBeamSync        = 0x00008000,
-
-        kIOAccelSurfaceModeSurface2 = 0x00004000,
+        kIOAccelSurfaceModeBeamSync        = 0x00008000
 } eIOAccelSurfaceModeBits;
 
 

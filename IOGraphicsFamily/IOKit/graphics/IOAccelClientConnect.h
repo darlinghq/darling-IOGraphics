@@ -19,7 +19,6 @@
  * 
  * @APPLE_LICENSE_HEADER_END@
  */
-// modified for Darling
 
 #ifndef _IOACCEL_CLIENT_CONNECT_H
 #define _IOACCEL_CLIENT_CONNECT_H
@@ -38,7 +37,6 @@
 enum eIOAcceleratorClientTypes {
         kIOAccelSurfaceClientType,
         kIOAccelNumClientTypes,
-        kIOAccelSurface2ClientType = 0x20,
 };
 
 
