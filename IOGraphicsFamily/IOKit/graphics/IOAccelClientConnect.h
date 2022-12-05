@@ -37,6 +37,9 @@
 enum eIOAcceleratorClientTypes {
         kIOAccelSurfaceClientType,
         kIOAccelNumClientTypes,
+#ifdef DARLING
+        kIOAccelSurface2ClientType = 0x20,
+#endif
 };
 
 
